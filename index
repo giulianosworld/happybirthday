@@ -78,6 +78,17 @@
     img {
       size: 20px 30px;
     }
+
+/* Media Query for smaller screens */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            #birthday-message {
+                font-size: 16px;
+            }
+        }
   </style>
 </head>
 
